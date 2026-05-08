@@ -1,0 +1,31 @@
+openapi: 3.0.0                  # 固定版本号
+info:
+  title: 加法插件               # 接口文档标题
+  version: 1.0.0
+servers:
+  - url: "https://uncapped-module-eldest.ngrok-free.dev"
+paths:
+  /add:                         # 接口地址：localhost:5003/add
+    post:                       # 请求方式：POST
+      operationId: addNumbers
+      summary: 加法计算          # 接口功能
+      description: 传入两个数字 a 和 b，返回它们的和
+      requestBody:               # 接口需要的参数
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                a: { type: number }  # 参数 a：数字
+                b: { type: number }  # 参数 b：数字
+              required: [a,b]
+      responses:                # 返回结果
+        '200':
+          description: 成功
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  result: { type: number }

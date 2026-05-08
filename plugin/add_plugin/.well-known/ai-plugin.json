@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "加法插件",
+  "name_for_model": "addplugin",
+  "description_for_human": "两个数字相加",
+  "description_for_model": "可以计算两个数字的和",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://uncapped-module-eldest.ngrok-free.dev/openapi.yaml"
+  },
+  "logo_url": "https://www.google.com/favicon.ico",
+  "contact_email": "test@test.com",
+  "legal_info_url": "https://uncapped-module-eldest.ngrok-free.dev"
+}
