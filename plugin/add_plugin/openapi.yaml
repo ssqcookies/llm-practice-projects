@@ -3,7 +3,7 @@ info:
   title: 加法插件               # 接口文档标题
   version: 1.0.0
 servers:
-  - url: "https://uncapped-module-eldest.ngrok-free.dev"
+  - url: "https://xxxx.ngrok-free.dev"
 paths:
   /add:                         # 接口地址：localhost:5003/add
     post:                       # 请求方式：POST

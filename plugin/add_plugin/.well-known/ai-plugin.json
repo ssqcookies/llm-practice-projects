@@ -9,9 +9,9 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://uncapped-module-eldest.ngrok-free.dev/openapi.yaml"
+    "url": "https://xxxxx.ngrok-free.dev/openapi.yaml"
   },
   "logo_url": "https://www.google.com/favicon.ico",
   "contact_email": "test@test.com",
-  "legal_info_url": "https://uncapped-module-eldest.ngrok-free.dev"
+  "legal_info_url": "https://xxxxx.ngrok-free.dev"
 }
