@@ -23,4 +23,6 @@ openai_api/                      # OpenAI API 原理学习代码
 ├── function_call.ipynb   #  函数调用（Function Call）原理学习，模拟插件调用流程             
 ├── test.pdf              #  PDF 解析测试用文档            
 ├── The_Old_Man_of_the_Sea.pdf   #  长篇文本解析与问答示例             
-└── pdfplumber.ipynb             #  PDF 文档解析与大模型文本问答实战，含 `test.pdf`、`The_Old_Man_of_the_Sea.pdf` 示例文件    
+├── pdfplumber.ipynb             #  PDF 文档解析与大模型文本问答实战，含 `test.pdf`、`The_Old_Man_of_the_Sea.pdf` 示例文件    
+├── gpt4v.ipynb                  #  图生文
+└──
