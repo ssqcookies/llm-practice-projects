@@ -1,6 +1,6 @@
 #————————OpenAI（GPT 调用）
 openai==1.61.1
-#————————LangChain 全家桶（大模型开发框架）
+# ———————— LangChain 全家桶（0.3x生态）————————
 langchain==0.3.19
 langchain-openai==0.3.7
 langchain-core==0.3.40
@@ -9,6 +9,7 @@ langchain-experimental==0.3.4
 langchain_chroma==0.2.2
 langchain-text-splitters==0.3.6
 langsmith==0.3.11
+langgraph==0.3.15
 #————————Chroma / FAISS（向量数据库，做知识库）
 chromadb==0.6.3
 faiss-cpu==1.10.0

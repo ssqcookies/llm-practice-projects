@@ -31,6 +31,7 @@
 ├── notebook/                # Jupyter 交互式学习笔记
 ├── openai_api/              # OpenAI API 原理学习代码
 ├── plugin_demo/             # 大模型插件开发案例
+├── langchain/               # 
 ├── requirements.txt         # 项目依赖
 └── README.md 
 
@@ -78,12 +79,12 @@ Python 版本：3.8+
 安装 Python → 建虚拟环境 → 装依赖 → 配置 OpenAI → 装 Jupyter Lab → 后台长期运行
 
 安装 Miniconda
-创建虚拟环境：zxxlangchain
+创建虚拟环境并激活：zxxlangchain
   ```bash
   conda create -n zxxlangchain python=3.10
   conda activate zxxlangchain
   ```
-安装项目依赖
+在虚拟环境中，安装项目依赖
   主要依赖：
   ```bash
   pip install -r requirements.txt
